@@ -1,0 +1,4 @@
+Transaction ID,Posted Date,Merchant Descriptor,Memo,Amount,Department,Cardholder Category,expected_category,expected_gl_code
+LB-000001,10/03/2026,SQ *BLUEBIRD BAKERY AUSTIN TX,client lunch,38.50,Sales,Dining,Restaurant,610100
+LB-000002,10/08/2026,STAPLES 00129 DENVER CO,,64.12,Admin,Merchandise,Office supplies,640100
+LB-000003,10/21/2026,DOORDASH*CHIPOTLE,team lunch,27.40,Engineering,Dining,Restaurant,610100

@@ -1,0 +1,3 @@
+rule_id,category,department,excluded_departments,amount_range,keywords,gl_code,gl_name
+R001,Restaurant,,,,,610100,Meals
+R002,Office supplies,,,,,640100,Office Supplies

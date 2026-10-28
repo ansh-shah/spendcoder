@@ -1,0 +1,71 @@
+# spendcoder project: Acme Field Services (100% synthetic demo data)
+[project]
+name = "Acme Field Services (synthetic demo)"
+
+[dataset]
+path = "data/transactions.csv"
+labeled_path = "data/labeled.csv"   # rows with expected_category / expected_gl_code for onboarding
+amount_sign = 1                      # set -1 if your export shows charges as negatives
+
+[dataset.columns]                    # map YOUR export's headers to spendcoder fields
+id = "Transaction ID"
+date = "Posted Date"
+description = "Merchant Descriptor"
+note = "Memo"
+amount = "Amount"
+department = "Department"
+
+[policy]
+categories = "policy/categories.csv"
+rules = "policy/rules.csv"
+vendor_overrides = "policy/vendor_overrides.csv"
+vendors = "policy/vendors.txt"
+
+[policy.note_glossary]               # org shorthand cardholders type in memos
+HH = "Happy hour (team food and drinks)"
+"all hands" = "Company-wide meeting"
+
+[policy.keyword_aliases]             # literal expansions used when matching rule keywords
+"happy hour" = ["HH"]
+meeting = ["mtg"]
+
+[llm]
+backend = "openrouter"               # openrouter | agent-files | mock
+chat_model = "openai/gpt-5.6-terra"  # OpenRouter chat model for normalize + review
+decision_model = "typesafe/jev-1.13" # OpenRouter Decisions model (see `spendcoder models`)
+reflection_model = "openai/gpt-5.6-terra"  # GEPA reflection during onboarding
+max_concurrency = 8
+
+[search]
+provider = "parallel"                # parallel | none  (needs PARALLEL_API_KEY)
+mode = "fast"
+max_results = 3
+only_unknown_merchants = true
+
+[gates]
+category_min_confidence = 0.55       # below this, category stays Unknown and goes to review
+select_min_confidence = 0.50
+max_error_rate = 0.05
+
+[review]
+low_confidence = 0.5
+
+[[review.flags]]
+name = "dispute"
+question = "Does the cardholder's note say this charge is disputed, unrecognized, fraudulent, or should be flagged for someone to look at?"
+action = "hold"
+
+[[review.flags]]
+name = "recognition_intent"
+question = "Was this purchase made to recognize, reward, or celebrate an employee or team achievement?"
+action = "review"
+
+[[review.flags]]
+name = "personal_spend"
+question = "Does the note suggest this was a personal purchase or will be repaid by the cardholder?"
+action = "hold"
+
+[tune]
+components = ["categorize_instructions", "category_guide", "select_instructions"]
+max_metric_calls = 300
+split = [0.5, 0.25, 0.25]

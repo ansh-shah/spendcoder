@@ -1,0 +1,4 @@
+Transaction ID,Posted Date,Merchant Descriptor,Memo,Amount,Department,Cardholder Category
+TX-000001,10/03/2026,SQ *BLUEBIRD BAKERY AUSTIN TX,client lunch,38.50,Sales,Dining
+TX-000002,10/08/2026,STAPLES 00129 DENVER CO,,64.12,Admin,Merchandise
+TX-000003,10/15/2026,SHELL OIL 57444 DALLAS TX,,58.90,Field Ops,Automotive

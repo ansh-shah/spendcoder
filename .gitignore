@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# Secrets
+.env
+*.key
+
+# Run artifacts and caches (may contain transaction text)
+runs/
+.spendcoder_cache/
+**/runs/
+**/.spendcoder_cache/
+gepa_runs/
+
+# Your real data never belongs in this repo. Keep it outside, or here:
+private/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

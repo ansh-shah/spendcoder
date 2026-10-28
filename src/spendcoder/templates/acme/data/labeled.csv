@@ -1,0 +1,121 @@
+Transaction ID,Posted Date,Merchant Descriptor,Memo,Amount,Department,Cardholder Category,expected_category,expected_gl_code
+LB-000001,10/21/2026,ENTERPRISE RENT-A-CAR 0042,client site van,246.55,Sales,Automotive,Rental car,630200
+LB-000002,10/25/2026,PINEWOOD LANES BOWL,client appreciation bowling,181.79,Sales,Entertainment,Team events,660300
+LB-000003,10/15/2026,STAPLES 00129 DENVER CO,,23.00,People,Misc,Office supplies,640100
+LB-000004,10/04/2026,CHEVRON 0045512 PHOENIX AZ,van fuel for crew,61.57,Field Ops,Services,Fuel,630100
+LB-000005,10/31/2026,HOME DEPOT #0822 AUSTIN TX,PVC fittings for Maple job,139.49,Sales,Merchandise,Hardware store,650200
+LB-000006,10/28/2026,UPS STORE 4411 MESA AZ,ship parts to supplier,50.74,Field Ops,Automotive,Shipping,660100
+LB-000007,10/12/2026,BEST BUY 00412 DENVER CO,headset for sales calls,334.05,Engineering,Merchandise,Electronics,640400
+LB-000008,10/18/2026,GRAINGER INDUSTRIAL 0813,capacitor for job 4411,47.11,Field Ops,Office,HVAC parts,650400
+LB-000009,10/15/2026,RIDGELINE HVAC PARTS 0442 PHOENIX AZ,fan relay,224.78,Field Ops,Gifts,HVAC parts,650400
+LB-000010,10/09/2026,GOOGLE *WORKSPACE,,50.31,Engineering,Software,Computer software,640200
+LB-000011,10/23/2026,UNITED AIRLINES 0161234567890,,429.03,Sales,Merchandise,Airline,620100
+LB-000012,10/26/2026,NEWSLETTER ANNUAL - TRADE JOURNAL,,123.60,Admin,Software,Subscriptions,640300
+LB-000013,10/15/2026,SHELL OIL 57444 DALLAS TX,van fuel for crew,42.55,Field Ops,Automotive,Fuel,630100
+LB-000014,10/20/2026,HILTON GARDEN INN DENVER,training hotel - 2 nights,204.38,Engineering,Travel,Hotel,620200
+LB-000015,10/23/2026,DOORDASH*PANERA 4452,team lunch - sprint demo,54.51,Engineering,Dining,Restaurant,610300
+LB-000016,10/21/2026,HARBOR PRINT & SHIP,certified mail,27.23,People,Utilities,Shipping,660100
+LB-000017,10/25/2026,TST* 0219 AUSTIN,lunch w/ facilities mgr,51.23,Sales,Groceries,Restaurant,610200
+LB-000018,10/07/2026,UNITED AIRLINES 0161234567890,site visit flight,493.96,Sales,Travel,Airline,620100
+LB-000019,10/13/2026,SHELL OIL 57444 DALLAS TX,,65.40,Admin,Automotive,Fuel,620300
+LB-000020,10/08/2026,AMZN MKTP US*2K4,replacement thermostat for job 4411,128.06,Field Ops,Merchandise,HVAC parts,650400
+LB-000021,10/01/2026,WALMART 2200 MESA AZ,,67.91,Admin,Software,Grocery,650100
+LB-000022,10/18/2026,WALMART 2200 MESA AZ,,105.19,Admin,Dining,Grocery,650100
+LB-000023,10/30/2026,SQ *KIDS CLIMB ARENA,summer picnic supplies,452.01,Engineering,Misc,Team events,660300
+LB-000024,10/14/2026,CITY PARKING METER DENVER,client visit parking,20.93,Sales,Travel,Parking,620400
+LB-000025,10/19/2026,UBER *TRIP HELP.UBER.COM,ride from hotel to office,38.13,Sales,Travel,Rideshare,620300
+LB-000026,10/28/2026,STAPLES 00315 PHOENIX AZ,printer toner,226.21,People,Dining,Office supplies,640100
+LB-000027,10/09/2026,ONLINE CERT PROCTORING 800-555-0190,certification exam voucher,115.88,Engineering,Services,Training and certification,660200
+LB-000028,10/19/2026,LYFT *RIDE SAN FRANCISCO CA,airport to client site,26.86,Sales,Travel,Rideshare,620300
+LB-000029,10/13/2026,DUNKIN 332011 PHOENIX AZ,,8.23,People,Misc,Coffee shop,610100
+LB-000030,10/01/2026,ZOOM.US 888-799-9666,,109.34,Sales,Misc,Computer software,640210
+LB-000031,10/04/2026,NPS *COUNTER SALE PHOENIX AZ,demo fixtures,192.70,Admin,Misc,Plumbing supplies,650200
+LB-000032,10/20/2026,NEWSLETTER ANNUAL - TRADE JOURNAL,magazine renewal,155.66,Admin,Software,Subscriptions,640300
+LB-000033,10/07/2026,GRAINGER INDUSTRIAL 0813,capacitor for job 4411,39.74,Field Ops,Utilities,HVAC parts,650400
+LB-000034,10/27/2026,DELL MARKETING 800-999,,487.39,Engineering,Software,Electronics,640400
+LB-000035,10/31/2026,UPS STORE 4411 MESA AZ,ship warranty core back,24.55,Field Ops,Automotive,Shipping,660100
+LB-000036,10/08/2026,UPS STORE 4411 MESA AZ,,49.80,Field Ops,Software,Shipping,660100
+LB-000037,10/15/2026,NORTHSIDE PLUMBING SUPPLY #98 TUCSON AZ,P-trap and flange,677.03,Field Ops,Merchandise,Plumbing supplies,650300
+LB-000038,10/18/2026,SP * METRO PARKING 0219,airport long-term,26.45,Engineering,Entertainment,Parking,620400
+LB-000039,10/25/2026,AMZN MKTP US*2K4,fan relay,310.27,Field Ops,Merchandise,HVAC parts,650400
+LB-000040,10/01/2026,FEDEX 882110 DENVER CO,freight for meter pallet,584.00,Sales,Services,Shipping,660150
+LB-000041,10/26/2026,ADOBE *ACROBAT PRO,meeting host add-on,83.32,Admin,Software,Computer software,640210
+LB-000042,10/31/2026,SHELL OIL 57444 DALLAS TX,van fuel for crew,62.83,Field Ops,Groceries,Fuel,630100
+LB-000043,10/25/2026,GOOGLE *WORKSPACE,,52.55,Engineering,Automotive,Computer software,640200
+LB-000044,10/28/2026,RIDGELINE HVAC PARTS 0442 PHOENIX AZ,return filter order,145.33,Sales,Merchandise,HVAC parts,650200
+LB-000045,10/12/2026,WORKWEAR OUTFITTERS #33,boots,198.83,Field Ops,Services,Uniforms,660500
+LB-000046,10/29/2026,XFINITY 800-555-0144,,173.42,Admin,Utilities,Utilities,660400
+LB-000047,10/24/2026,WORKWEAR OUTFITTERS #33,,250.74,Field Ops,Groceries,Uniforms,660500
+LB-000048,10/25/2026,SP * METRO PARKING 0219,client visit parking,31.18,Sales,Dining,Parking,620400
+LB-000049,10/01/2026,COSTCO WHSE #1183 PHOENIX AZ,team lunch after install,152.63,Field Ops,Groceries,Grocery,610300
+LB-000050,10/14/2026,RIDGELINE HVAC PARTS 0442 PHOENIX AZ,,269.61,Field Ops,Services,HVAC parts,650400
+LB-000051,10/26/2026,DUNKIN 332011 PHOENIX AZ,,6.79,People,Office,Coffee shop,610100
+LB-000052,10/10/2026,LYFT *RIDE SAN FRANCISCO CA,ride to vendor office,27.15,People,Travel,Rideshare,620300
+LB-000053,10/17/2026,DELTA AIR 0067112345678,flight to Denver training,333.34,Engineering,Dining,Airline,620100
+LB-000054,10/24/2026,TARGET 00412 DENVER CO,,80.40,People,Gifts,Gifts and recognition,640600
+LB-000055,10/13/2026,HARBOR PRINT & SHIP,,54.37,Sales,Entertainment,Shipping,660100
+LB-000056,10/11/2026,TARGET 00412 DENVER CO,,173.25,Field Ops,Gifts,Gifts and recognition,640600
+LB-000057,10/25/2026,CHEVRON 0045512 PHOENIX AZ,fuel for loaner car,37.02,Admin,Groceries,Fuel,620300
+LB-000058,10/01/2026,AT&T BILL PAY,office internet,543.56,Admin,Office,Utilities,660400
+LB-000059,10/22/2026,DELTA AIR LINES 0062389512647,refund - cancelled flight,-397.02,Sales,Travel,Airline,620100
+LB-000060,10/19/2026,DELTA AIR LINES 0062389512647,,669.40,People,Travel,Airline,620100
+LB-000061,10/30/2026,FEDEX 882110 DENVER CO,ship sample to client,61.01,Admin,Services,Shipping,660100
+LB-000062,10/06/2026,TARGET 00412 DENVER CO,holiday card supplies,101.67,People,Office,Gifts and recognition,640600
+LB-000063,10/29/2026,LYFT *RIDE SAN FRANCISCO CA,shuttle to offsite,31.11,Admin,Dining,Rideshare,620300
+LB-000064,10/31/2026,NEWSLETTER ANNUAL - TRADE JOURNAL,,171.71,Admin,Utilities,Subscriptions,640300
+LB-000065,10/06/2026,DOORDASH*CHIPOTLE,dinner during Tucson job,16.69,Field Ops,Software,Restaurant,610100
+LB-000066,10/23/2026,DELL MARKETING 800-999,monitor for dispatch desk,281.57,Admin,Groceries,Electronics,640400
+LB-000067,10/05/2026,HERTZ 0132 DENVER CO,van for Tucson job,156.64,Field Ops,Travel,Rental car,630200
+LB-000068,10/31/2026,SQ *KIDS CLIMB ARENA,wellness day,445.84,Admin,Gifts,Team events,660320
+LB-000069,10/31/2026,SUMMIT CATERING CO,crew catering - Pine Ct,167.63,Admin,Misc,Catering,610400
+LB-000070,10/22/2026,DELL MARKETING 800-999,usb-c docking station,1132.32,Engineering,Services,Electronics,640400
+LB-000071,10/12/2026,CITY PARKING METER DENVER,client visit parking,13.43,Sales,Automotive,Parking,620400
+LB-000072,10/11/2026,FEDEX 882110 DENVER CO,freight for meter pallet,243.25,Sales,Office,Shipping,660150
+LB-000073,10/30/2026,GRAINGER INDUSTRIAL 0813,capacitor for job 4411,76.91,Field Ops,Office,HVAC parts,650400
+LB-000074,10/05/2026,HERTZ 0132 DENVER CO,van for Tucson job,257.43,Field Ops,Automotive,Rental car,630200
+LB-000075,10/15/2026,NEWSLETTER ANNUAL - TRADE JOURNAL,,134.25,Admin,Software,Subscriptions,640300
+LB-000076,10/24/2026,MARRIOTT 0819 PHOENIX AZ,client site stay,329.77,Sales,Merchandise,Hotel,620200
+LB-000077,10/30/2026,PINEWOOD LANES BOWL,,220.32,Sales,Utilities,Team events,660300
+LB-000078,10/08/2026,COMMUNITY GIVING PORTAL 800-555-0166,charity walk sponsorship,168.83,People,Dining,Donations,660600
+LB-000079,10/19/2026,AMZN MKTP US*2K4,thank-you cards and gift,39.98,Field Ops,Misc,Gifts and recognition,640600
+LB-000080,10/07/2026,LAKESHORE BOWL LANES,wellness day,278.80,People,Software,Team events,660320
+LB-000081,10/24/2026,ZOOM.US 888-799-9666,meeting host add-on,158.13,People,Entertainment,Computer software,640210
+LB-000082,10/21/2026,UBER *EATS HELP.UBER.COM,,42.10,Engineering,Dining,Restaurant,610100
+LB-000083,10/30/2026,STAPLES 00315 PHOENIX AZ,printer toner,163.72,People,Office,Office supplies,640100
+LB-000084,10/25/2026,FEDEX FREIGHT 4421 PHOENIX AZ,return core - HVAC compressor,181.67,Field Ops,Services,Shipping,660150
+LB-000085,10/17/2026,WAG #04417 MESA AZ,cups and napkins for install crew,31.51,Field Ops,Groceries,Grocery,650100
+LB-000086,10/06/2026,SQ *PINECREST COFFEE ROASTERS,,12.37,Sales,Entertainment,Coffee shop,610100
+LB-000087,10/21/2026,BEST BUY 00412 DENVER CO,power strip for front desk,42.65,Admin,Merchandise,Electronics,640100
+LB-000088,10/25/2026,APPLE STORE R123 HOUSTON TX,,479.08,Engineering,Merchandise,Electronics,640400
+LB-000089,10/23/2026,WALMART 2200 MESA AZ,paper plates and cups,18.72,Admin,Groceries,Grocery,650100
+LB-000090,10/31/2026,WORKWEAR OUTFITTERS #33,boots,182.24,Field Ops,Gifts,Uniforms,660500
+LB-000091,10/30/2026,GOOGLE *WORKSPACE,shared drive storage,43.59,Engineering,Dining,Computer software,640200
+LB-000092,10/10/2026,BEST BUY 00412 DENVER CO,usb hub for field laptop,39.00,People,Gifts,Electronics,640100
+LB-000093,10/02/2026,RIDGELINE HVAC PARTS 0442 PHOENIX AZ,spare filters for office unit,125.17,Engineering,Merchandise,HVAC parts,650200
+LB-000094,10/21/2026,WAG #04417 MESA AZ,ice and cooler supplies,13.59,Field Ops,Groceries,Grocery,650100
+LB-000095,10/22/2026,CHEVRON 0045512 PHOENIX AZ,truck fuel - Tucson job,71.51,Field Ops,Entertainment,Fuel,630100
+LB-000096,10/26/2026,UBER *TRIP HELP.UBER.COM,airport to client site,38.61,Admin,Travel,Rideshare,620300
+LB-000097,10/14/2026,STARBUCKS STORE 14221 HOUSTON TX,coffee for the crew,6.05,People,Dining,Coffee shop,610100
+LB-000098,10/30/2026,AMZN MKTP US*2K4,,205.33,People,Gifts,Gifts and recognition,640600
+LB-000099,10/08/2026,WORKWEAR OUTFITTERS #33,rain gear,98.62,Field Ops,Merchandise,Uniforms,660500
+LB-000100,10/30/2026,MARRIOTT HOTELS 1234 DENVER CO,"crew lodging, Tucson job",276.30,Field Ops,Travel,Hotel,620200
+LB-000101,10/15/2026,POS 4421 MISC,employee of the month gift cards,70.56,People,Gifts,Gifts and recognition,640500
+LB-000102,10/05/2026,NEWSLETTER ANNUAL - TRADE JOURNAL,annual subscription,128.39,Admin,Software,Subscriptions,640300
+LB-000103,10/10/2026,DOORDASH*CHIPOTLE,team lunch - sprint demo,34.60,Engineering,Dining,Restaurant,610300
+LB-000104,10/09/2026,XFINITY 800-555-0144,office internet,82.74,Admin,Utilities,Utilities,660400
+LB-000105,10/04/2026,DOORDASH*CHIPOTLE,client dinner w/ prospect,147.41,Sales,Merchandise,Restaurant,610200
+LB-000106,10/14/2026,AMZN MKTP US*2K4,,75.21,Sales,Gifts,Gifts and recognition,640700
+LB-000107,10/18/2026,NATIONAL TRADE ASSN DUES 800-555-0199,,280.94,Field Ops,Software,Subscriptions,640300
+LB-000108,10/23/2026,METRO PARKING GARAGE DENVER CO,client visit parking,15.93,Sales,Groceries,Parking,620400
+LB-000109,10/31/2026,CITY PARKING METER DENVER,,11.05,Sales,Automotive,Parking,620400
+LB-000110,10/07/2026,SP * 88122 AZ,HH for ops crew,129.51,Field Ops,Travel,Restaurant,610300
+LB-000111,10/19/2026,DUNKIN 332011 PHOENIX AZ,,11.79,Admin,Services,Coffee shop,610100
+LB-000112,10/22/2026,DUNKIN 332011 PHOENIX AZ,,5.46,People,Automotive,Coffee shop,610100
+LB-000113,10/25/2026,STAPLES.COM 800-555-0182,whiteboard markers,137.77,Engineering,Misc,Office supplies,640100
+LB-000114,10/03/2026,TARGET 00412 DENVER CO,recognition gift cards,124.05,People,Travel,Gifts and recognition,640500
+LB-000115,10/18/2026,PP*7731 SVCS TUCSON AZ,,287.98,Field Ops,Software,Plumbing supplies,650300
+LB-000116,10/27/2026,AT&T BILL PAY,office internet,377.13,Admin,Automotive,Utilities,660400
+LB-000117,10/06/2026,RIDGELINE HVAC PARTS 0442 PHOENIX AZ,return filter order,68.87,Admin,Automotive,HVAC parts,650200
+LB-000118,10/16/2026,TARGET 00412 DENVER CO,,129.54,People,Gifts,Gifts and recognition,640600
+LB-000119,10/31/2026,DELL MARKETING 800-999,dev laptop dock,126.80,Engineering,Merchandise,Electronics,640400
+LB-000120,10/23/2026,RIDGELINE HVAC PARTS 0442 PHOENIX AZ,return filter order,166.19,Sales,Office,HVAC parts,650200

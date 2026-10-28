@@ -1,0 +1,39 @@
+rule_id,category,department,excluded_departments,amount_range,keywords,gl_code,gl_name
+R001,Restaurant,Sales,,,,610200,Client Meals
+R002,Restaurant,,Sales,,,610100,Meals
+R003,Restaurant,,,,"team lunch, all hands, happy hour, HH",610300,Team Meals
+R004,Coffee shop,,,,,610100,Meals
+R005,Grocery,,,,,650100,Break Room Supplies
+R006,Grocery,,,,"team lunch, all hands, happy hour, HH",610300,Team Meals
+R007,Catering,Sales,,,,610200,Client Meals
+R008,Catering,,Sales,,,610400,Catering
+R009,Airline,,,,,620100,Airfare
+R010,Hotel,,,,,620200,Lodging
+R011,Rideshare,,,,,620300,Ground Transportation
+R012,Rental car,,,,,630200,Vehicle Rental
+R013,Parking,,,,,620400,Parking
+R014,Fuel,Field Ops,,,,630100,Vehicle Fuel
+R015,Fuel,,Field Ops,,,620300,Ground Transportation
+R016,Office supplies,,,,,640100,Office Supplies
+R017,Electronics,,,0-74.99,,640100,Office Supplies
+R018,Electronics,,,75-100000,,640400,Equipment
+R019,Computer software,Engineering,,,,640200,Software
+R020,Computer software,,Engineering,,,640210,Software - Business
+R021,Hardware store,,,,,650200,Job Materials - General
+R022,Plumbing supplies,Field Ops,,,,650300,Job Materials - Plumbing
+R023,Plumbing supplies,,Field Ops,,,650200,Job Materials - General
+R024,HVAC parts,Field Ops,,,,650400,Job Materials - HVAC
+R025,HVAC parts,,Field Ops,,,650200,Job Materials - General
+R026,Shipping,,,0-99.99,,660100,Shipping and Postage
+R027,Shipping,,,100-100000,,660150,Freight and Logistics
+R028,Training and certification,,,,,660200,Training and Certification
+R029,Team events,,"Admin,People",,,660300,Team Events
+R030,Team events,Admin,,,,660320,Employee Engagement
+R031,Team events,People,,,,660320,Employee Engagement
+R032,Gifts and recognition,,,,"recognition, award, employee of the month",640500,Employee Recognition
+R033,Gifts and recognition,Sales,,,,640700,Client Gifts
+R034,Gifts and recognition,,Sales,,,640600,Gifts
+R035,Subscriptions,,,,,640300,Subscriptions and Memberships
+R036,Utilities,,,,,660400,Utilities
+R037,Uniforms,,,,,660500,Uniforms and PPE
+R038,Donations,,,,,660600,Donations
