@@ -7,6 +7,8 @@
 
 spendcoder turns a raw corporate-card export into GL-coded transactions using your accounting policy: categories, a rule matrix, and vendor overrides. Every row gets an audit trail, and uncertain rows go to a review queue.
 
+It was designed around [Airbase](https://www.airbase.com/) transaction exports, and the `blank` template ships with the Airbase column mapping. Nothing in the pipeline depends on Airbase, though: any card export with an ID, a merchant description, and an amount works after you map its headers in `spendcoder.toml` (see [Input formats](#input-formats)).
+
 The design rule is that models make judgments and code makes decisions. Arithmetic, eligibility, amount ranges, department exclusions, GL pairs, and row/ID preservation are plain code. Models answer small, bounded questions, and every answer is validated before use.
 
 ## Why
@@ -118,6 +120,27 @@ department = "Cost Center"
 ```
 
 Only `id`, `description`, and `amount` are required. Original columns pass through untouched, and the issuer's own category column is never shown to a model. An amount range reads as `100` or `0-99.99` and an unreadable range is a hard error. See [docs/architecture.md](docs/architecture.md) for details.
+
+### Input formats
+
+spendcoder was built against Airbase's "all transactions" CSV export. Airbase reports charges as negative numbers in `Amount in USD`, so its mapping flips the sign:
+
+```toml
+[dataset]
+amount_sign = -1                  # Airbase exports charges as negatives
+
+[dataset.columns]
+id = "Transaction ID"
+date = "Settled Date"
+description = "Description"
+note = "Transaction Note"
+amount = "Amount in USD"
+department = "Department"
+```
+
+Airbase's own coding columns (`Category 1`, `GL Vendor Name`, and so on) are carried through to `coded.csv` but never sent to a model, because they are often wrong and would anchor its answers.
+
+Other exports (Ramp, Brex, Expensify, a bank's card CSV) need only a different `[dataset.columns]` block. Point each field at the matching header, set `amount_sign = -1` if charges appear as negatives, and leave out `note` or `department` if your export has no such column. Delimiters (comma, semicolon, tab) are detected automatically, and amounts like `$1,234.50` or `(12.00)` parse as expected. Run `spendcoder doctor` to confirm the mapping before a real run.
 
 ## Backends
 

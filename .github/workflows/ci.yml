@@ -27,4 +27,4 @@ jobs:
         run: pytest -q
 
       - name: Smoke run (offline mock backend)
-        run: spendcoder init /tmp/demo --template acme && cd /tmp/demo && spendcoder doctor && spendcoder onboard --backend mock --budget 60 && spendcoder run --backend mock
+        run: spendcoder init /tmp/demo --template acme && cd /tmp/demo && spendcoder doctor --backend mock && spendcoder onboard --backend mock --budget 60 && spendcoder run --backend mock

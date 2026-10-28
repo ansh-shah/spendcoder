@@ -5,14 +5,14 @@ name = "My company"
 [dataset]
 path = "data/transactions.csv"
 labeled_path = "data/labeled.csv"   # rows with expected_category / expected_gl_code for onboarding
-amount_sign = 1                      # set -1 if your export shows charges as negatives
+amount_sign = -1                     # Airbase exports charges as negatives; use 1 if yours are positive
 
-[dataset.columns]                    # map YOUR export's headers to spendcoder fields
+[dataset.columns]                    # Airbase "all transactions" export; remap for other card exports
 id = "Transaction ID"
-date = "Posted Date"
-description = "Merchant Descriptor"
-note = "Memo"
-amount = "Amount"
+date = "Settled Date"
+description = "Description"
+note = "Transaction Note"
+amount = "Amount in USD"
 department = "Department"
 
 [policy]

@@ -18,7 +18,7 @@ Defaults below are the built-in values. Keys marked **required** have no default
 |---|---|---|
 | `path` | **required** | Card export to code (CSV). |
 | `labeled_path` | none | Labeled export with known correct GL codes. Used by `spendcoder eval` and `spendcoder onboard`. |
-| `amount_sign` | `1.0` | Multiplier applied to every parsed amount. Use `-1.0` if the export records charges as negative numbers. |
+| `amount_sign` | `1.0` | Multiplier applied to every parsed amount. Use `-1.0` if the export records charges as negative numbers (Airbase does; the `blank` template already sets it). |
 
 Amount parsing removes `$`, commas, and spaces. A value in parentheses, such as `(12.50)`, is negative. Unparseable amounts stop the run and report the line numbers.
 
